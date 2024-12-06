@@ -52,12 +52,11 @@ export default withMermaid(
       sidebar: {
         "/": [
           {
-            text: "简要说明",
+            text: "第一阶段",
             collapsed: true,
-            link: "/intro",
             items: [
-              { text: "1. 要不要健脑？", link: "/why" },
-              { text: "2. 什么最健脑？", link: "/what" },
+              { text: "1. 第一部分", link: "/notes/1/1" },
+              { text: "2. 第二部分", link: "/notes/1/2" },
             ],
           },
           {
