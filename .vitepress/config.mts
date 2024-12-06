@@ -500,13 +500,9 @@ export default withMermaid(
       socialLinks: [
         {
           icon: "github",
-          link: "https://github.com/zuodaotech/everyone-can-use-english/tree/main/1000-hours",
+          link: "https://github.com/wubaiqing/duolinguo",
         },
       ],
-    },
-
-    sitemap: {
-      hostname: "https://1000h.org",
     },
 
     lastUpdated: true,
