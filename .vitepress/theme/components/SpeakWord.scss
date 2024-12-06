@@ -1,0 +1,104 @@
+.speak-word {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  // border-bottom: 1px solid #d87676;
+  .ctrl {
+    display: flex;
+    align-items: center;
+  }
+  .ctrl-part {
+    display: flex;
+    align-items: center;
+  }
+  .ctrl .divider {
+    width: 1px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0 16px 0 6px;
+  }
+  .accent-label {
+    margin-right: 4px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  .word {
+    font-size: 16px;
+    font-weight: bold;
+    color: #af4c4c;
+  }
+  audio {
+    display: none;
+  }
+  .spacer {
+    flex-grow: 1;
+  }
+  .pos {
+    opacity: 0.7;
+    font-size: 16px;
+  }
+
+  .play-button {
+    border: none;
+    border-radius: 2px;
+    margin-right: 4px;
+    padding: 0 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    cursor: pointer;
+    height: 28px;
+    max-width: 48px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s ease;
+    .emoji {
+      width: 20px;
+      font-size: 1rem;
+    }
+    .icon {
+      position: absolute;
+      cursor: pointer;
+      opacity: 0.7;
+      width: 12px;
+      height: 12px;
+      padding: 2px;
+      border-radius: 10px;
+      bottom: 0;
+      opacity: 1;
+      right: 0;
+      transform: translateY(-3px);
+    }
+    &.female {
+      .icon {
+        background-color: #d87272;
+      }
+    }
+    &.male {
+      .icon {
+        background-color: #7575d3;
+      }
+    }
+    &:active {
+      animation: pulse 0.3s ease;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+// add an active animation to the play button
+@keyframes pulse {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
