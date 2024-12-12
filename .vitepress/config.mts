@@ -12,7 +12,7 @@ import carousel from "./lib/markdown-it-carousel";
 export default withMermaid(
   // https://vitepress.dev/reference/site-config
   defineConfig({
-    title: "1000 小时",
+    title: "多邻国-学习笔记",
     description: "用注意力填满 1000 小时就能练成任何你需要的技能……",
     head: [],
     themeConfig: {
