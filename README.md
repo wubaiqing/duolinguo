@@ -1,5 +1,25 @@
-# 1000 Hours with Attention Paid
+# Duolingo 学习助手
 
-This is the repo of [1000h.org](https://1000h.org).
+## 项目简介
 
-By paying your attention into 1000 hours, you can master anything you need.
+这是一个帮助用户更好地学习 Duolingo 的辅助工具。
+
+本项目旨在：
+
+- 提供学习进度追踪
+- 记录每日学习数据
+- 帮助用户建立持续学习的习惯
+
+## 功能特性
+
+- 学习数据可视化
+- 学习进度分析
+
+## 安装
+
+1. 克隆项目到本地
+
+```bash
+# 使用 yarn
+yarn install
+```
