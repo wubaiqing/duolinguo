@@ -1,4 +1,4 @@
-name = "1000h-vtp"
+name = "duolinguo"
 main = "workers-site/index.js"
 type = "webpack"
 workers_dev = false
