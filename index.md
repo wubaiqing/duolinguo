@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: 第一阶段
       link: /notes/1/1.html
+    - theme: brand
+      text: 第二阶段
+      link: /notes/2/1.html
     - theme: alt
       text: 多邻国
       link: https://www.duolingo.com/
