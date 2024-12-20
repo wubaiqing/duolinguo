@@ -50,6 +50,7 @@ export default withMermaid(
               { text: "7. 第七部分", link: "/notes/2/7" },
               { text: "8. 第八部分", link: "/notes/2/8" },
               { text: "9. 第九部分", link: "/notes/2/9" },
+              { text: "10. 第十部分", link: "/notes/2/10" },
             ],
           },
         ],
