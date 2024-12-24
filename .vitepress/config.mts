@@ -71,6 +71,13 @@ export default withMermaid(
               { text: "28. 第二十八部分", link: "/notes/2/28" },
             ],
           },
+          {
+            text: "第三阶段",
+            collapsed: true,
+            items: [
+              { text: "1. 第一部分", link: "/notes/3/1" },
+            ],
+          },
         ],
       },
       socialLinks: [
