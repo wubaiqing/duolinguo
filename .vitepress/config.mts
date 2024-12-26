@@ -18,7 +18,7 @@ export default withMermaid(
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
-        { text: "Home", link: "/" },
+        { text: "首页", link: "/" },
         { text: "遗忘曲线", link: "/forget/2024/12" },
       ],
 
