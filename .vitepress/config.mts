@@ -1,13 +1,9 @@
 import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 import footnote from "markdown-it-footnote";
-import sup from "markdown-it-sup";
-import sub from "markdown-it-sub";
 import mark from "markdown-it-mark";
 import ins from "markdown-it-ins";
 import carousel from "./lib/markdown-it-carousel";
-
-// import markdownit from 'markdown-it'
 
 export default withMermaid(
   // https://vitepress.dev/reference/site-config
@@ -16,6 +12,9 @@ export default withMermaid(
     description: "用注意力填满 1000 小时就能练成任何你需要的技能……",
     head: [],
     themeConfig: {
+      outline: {
+        label: "目录",
+      },
       // https://vitepress.dev/reference/default-theme-config
       nav: [
         { text: "首页", link: "/" },
@@ -74,18 +73,14 @@ export default withMermaid(
           {
             text: "第三阶段",
             collapsed: true,
-            items: [
-              { text: "1. 第一部分", link: "/notes/3/1" },
-            ],
+            items: [{ text: "1. 第一部分", link: "/notes/3/1" }],
           },
         ],
         "/forget/": [
           {
             text: "遗忘曲线",
             collapsed: true,
-            items: [
-              { text: "12 月份", link: "/forget/2024/12" },
-            ],
+            items: [{ text: "12 月份", link: "/forget/2024/12" }],
           },
         ],
       },
@@ -101,12 +96,9 @@ export default withMermaid(
 
     markdown: {
       // https://vitepress.dev/reference/markdown
-      math: true,
       config: (md) => {
         // use more markdown-it plugins!
         md.use(footnote);
-        md.use(sub);
-        md.use(sup);
         md.use(mark);
         md.use(ins);
         md.use(carousel);
