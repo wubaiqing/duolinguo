@@ -4,8 +4,6 @@ type = "webpack"
 workers_dev = false
 compatibility_date = "2023-03-23"
 
-routes = ["vtp.1000h.org/*"]
-
 [site]
 bucket = "./.vitepress/dist"
 

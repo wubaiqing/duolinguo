@@ -138,3 +138,6 @@ dist
 .ipynb_checkpoints
 
 pnpm-lock.yaml
+
+# Local Netlify folder
+.netlify
