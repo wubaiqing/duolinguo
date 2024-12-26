@@ -19,6 +19,7 @@ export default withMermaid(
       // https://vitepress.dev/reference/default-theme-config
       nav: [
         { text: "Home", link: "/" },
+        { text: "备忘录", link: "/memo/2024/12" },
         { text: "Enjoy App", link: "/enjoy-app/", activeMatch: "/enjoy-app/" },
       ],
 
@@ -76,6 +77,15 @@ export default withMermaid(
             collapsed: true,
             items: [
               { text: "1. 第一部分", link: "/notes/3/1" },
+            ],
+          },
+        ],
+        "/memo/": [
+          {
+            text: "备忘录",
+            collapsed: true,
+            items: [
+              { text: "12 月份", link: "/memo/2024/12" },
             ],
           },
         ],
