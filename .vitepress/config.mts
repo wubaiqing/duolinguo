@@ -19,7 +19,7 @@ export default withMermaid(
       // https://vitepress.dev/reference/default-theme-config
       nav: [
         { text: "Home", link: "/" },
-        { text: "备忘录", link: "/memo/2024/12" },
+        { text: "遗忘曲线", link: "/forget/2024/12" },
       ],
 
       sidebar: {
@@ -79,7 +79,7 @@ export default withMermaid(
             ],
           },
         ],
-        "/memo/": [
+        "/forget/": [
           {
             text: "遗忘曲线",
             collapsed: true,
