@@ -20,7 +20,6 @@ export default withMermaid(
       nav: [
         { text: "Home", link: "/" },
         { text: "备忘录", link: "/memo/2024/12" },
-        { text: "Enjoy App", link: "/enjoy-app/", activeMatch: "/enjoy-app/" },
       ],
 
       sidebar: {
@@ -82,10 +81,10 @@ export default withMermaid(
         ],
         "/memo/": [
           {
-            text: "备忘录",
+            text: "遗忘曲线",
             collapsed: true,
             items: [
-              { text: "12 月份", link: "/memo/2024/12" },
+              { text: "12 月份", link: "/forget/2024/12" },
             ],
           },
         ],

@@ -130,7 +130,6 @@ dist
 .pnp.*
 
 .DS_Store
-./public/jupyter-notebooks/*.mp3
 
 .vitepress/cache/
 
