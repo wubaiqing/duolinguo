@@ -26,6 +26,14 @@ export default withMermaid(
         gtag('js', new Date());
         gtag('config', 'G-KTPWF0XW8N');`,
       ],
+      [
+        "script",
+        {
+          async: true,
+          crossorigin: "anonymous",
+          src: "https://www.googletagmanager.com/gtag/js?id=G-KTPWF0XW8N",
+        },
+      ],
     ],
     themeConfig: {
       outline: {
