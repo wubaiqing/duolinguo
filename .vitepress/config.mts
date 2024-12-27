@@ -34,6 +34,14 @@ export default withMermaid(
           src: "https://www.googletagmanager.com/gtag/js?id=G-KTPWF0XW8N",
         },
       ],
+      [
+        "script",
+        {
+          async: true,
+          crossorigin: "anonymous",
+          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4599570416111407",
+        },
+      ],
     ],
     themeConfig: {
       outline: {
