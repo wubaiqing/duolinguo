@@ -10,7 +10,23 @@ export default withMermaid(
   defineConfig({
     title: "多邻国-学习笔记",
     description: "用注意力填满 1000 小时就能练成任何你需要的技能……",
-    head: [],
+    head: [
+      [
+        "script",
+        {
+          async: "",
+          src: "https://www.googletagmanager.com/gtag/js?id=G-KTPWF0XW8N",
+        },
+      ],
+      [
+        "script",
+        {},
+        `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KTPWF0XW8N');`,
+      ],
+    ],
     themeConfig: {
       outline: {
         label: "目录",
