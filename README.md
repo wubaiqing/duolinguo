@@ -2,6 +2,8 @@
 
 一个基于 VitePress 构建的英语学习笔记网站，记录多邻国课程学习过程中的重点内容。
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8fdc69e7-7ca3-4cf4-a236-1cd24dbd6efc/deploy-status)](https://app.netlify.com/sites/duolinguo/deploys)
+
 ## 项目特点
 
 - 📝 系统化的英语学习笔记
