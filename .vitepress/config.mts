@@ -110,9 +110,16 @@ export default withMermaid(
         ],
         "/forget/": [
           {
-            text: "遗忘曲线",
+            text: "2024",
             collapsed: true,
-            items: [{ text: "12 月份", link: "/forget/2024/12" }],
+            items: [
+              { text: "12 月份", link: "/forget/2024/12" },
+            ],
+          },
+          {
+            text: "2025",
+            collapsed: true,
+            items: [{ text: "01 月份", link: "/forget/2025/1" }],
           },
         ],
       },
