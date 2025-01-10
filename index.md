@@ -17,6 +17,9 @@ hero:
       text: 第三阶段
       link: /notes/3/1.html
     - theme: alt
+      text: 遗忘曲线
+      link: /forget/2025/1.html
+    - theme: alt
       text: 多邻国
       link: https://www.duolingo.com/
 ---
