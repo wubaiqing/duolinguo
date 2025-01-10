@@ -105,7 +105,10 @@ export default withMermaid(
           {
             text: "第三阶段",
             collapsed: true,
-            items: [{ text: "1. 第一部分", link: "/notes/3/1" }],
+            items: [
+              { text: "1. 第一部分", link: "/notes/3/1" },
+              { text: "2. 第二部分", link: "/notes/3/2" },
+            ],
           },
         ],
         "/forget/": [
