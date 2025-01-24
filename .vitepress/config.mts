@@ -51,7 +51,10 @@ export default withMermaid(
       nav: [
         { text: "首页", link: "/" },
         { text: "遗忘曲线", link: "/forget/2024/12" },
+        { text: "基础语法", link: "/base/1" },
       ],
+
+
 
       sidebar: {
         "/": [
@@ -123,6 +126,13 @@ export default withMermaid(
             text: "2025",
             collapsed: true,
             items: [{ text: "01 月份", link: "/forget/2025/1" }],
+          },
+        ],
+        "/base/": [
+          {
+            text: "基础语法",
+            collapsed: true,
+            items: [{ text: "1. 第一部分", link: "/base/1" }],
           },
         ],
       },
