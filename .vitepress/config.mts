@@ -51,11 +51,8 @@ export default withMermaid(
       nav: [
         { text: "首页", link: "/" },
         { text: "遗忘曲线", link: "/forget/2024/12" },
-        { text: "基础语法", link: "/base/1" },
+        { text: "基础语法", link: "/base/verb/1" },
       ],
-
-
-
       sidebar: {
         "/": [
           {
@@ -131,9 +128,12 @@ export default withMermaid(
         ],
         "/base/": [
           {
-            text: "基础语法",
+            text: "动词",
             collapsed: true,
-            items: [{ text: "1. Be 动词", link: "/base/1" }],
+            items: [
+              { text: "1. Be 动词", link: "/base/verb/1" },
+              { text: "2. 辅动词", link: "/base/verb/2" },
+            ],
           },
         ],
       },
