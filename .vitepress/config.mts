@@ -133,7 +133,7 @@ export default withMermaid(
           {
             text: "基础语法",
             collapsed: true,
-            items: [{ text: "1. 第一部分", link: "/base/1" }],
+            items: [{ text: "1. Be 动词", link: "/base/1" }],
           },
         ],
       },
