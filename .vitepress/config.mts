@@ -133,6 +133,8 @@ export default withMermaid(
             items: [
               { text: "1. Be 动词", link: "/base/verb/1" },
               { text: "2. 辅动词", link: "/base/verb/2" },
+              { text: "3. 系动词", link: "/base/verb/3" },
+              { text: "100. 对比表", link: "/base/verb/contrast" },
             ],
           },
         ],
