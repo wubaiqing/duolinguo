@@ -29,7 +29,7 @@ export default withMermaid(
       [
         "script",
         {
-          async: true,
+          async: "true",
           crossorigin: "anonymous",
           src: "https://www.googletagmanager.com/gtag/js?id=G-KTPWF0XW8N",
         },
@@ -37,7 +37,7 @@ export default withMermaid(
       [
         "script",
         {
-          async: true,
+          async: "true",
           crossorigin: "anonymous",
           src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4599570416111407",
         },
@@ -109,6 +109,7 @@ export default withMermaid(
               { text: "1. 第一部分", link: "/notes/3/1" },
               { text: "2. 第二部分", link: "/notes/3/2" },
               { text: "3. 第三部分", link: "/notes/3/3" },
+              { text: "4. 第四部分", link: "/notes/3/4" },
             ],
           },
         ],
@@ -116,9 +117,7 @@ export default withMermaid(
           {
             text: "2024",
             collapsed: true,
-            items: [
-              { text: "12 月份", link: "/forget/2024/12" },
-            ],
+            items: [{ text: "12 月份", link: "/forget/2024/12" }],
           },
           {
             text: "2025",
@@ -135,10 +134,10 @@ export default withMermaid(
               { text: "2. 辅动词", link: "/base/verb/2" },
               { text: "3. 系动词", link: "/base/verb/3" },
               { text: "4. 介词", link: "/base/verb/4" },
+              { text: "5.  形容词", link: "/base/verb/5" },
               { text: "100. 对比表", link: "/base/verb/contrast" },
             ],
           },
-          
         ],
       },
       socialLinks: [
