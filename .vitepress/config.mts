@@ -52,6 +52,7 @@ export default withMermaid(
         { text: "首页", link: "/" },
         { text: "遗忘曲线", link: "/forget/2024/12" },
         { text: "基础语法", link: "/base/verb/1" },
+        { text: "音标", link: "/pronunciation/1" },
       ],
       sidebar: {
         "/": [
@@ -139,6 +140,16 @@ export default withMermaid(
             ],
           },
         ],
+        "/pronunciation/": [
+          {
+            text: "音标学习",
+            collapsed: true,
+            items: [
+              { text: "1. 长音", link: "/pronunciation/1" },
+            ],
+          },
+        ],
+        
       },
       socialLinks: [
         {
