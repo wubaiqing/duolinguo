@@ -150,6 +150,8 @@ export default withMermaid(
             items: [
               { text: "1. 长音", link: "/pronunciation/1" },
               { text: "2. 短音", link: "/pronunciation/2" },
+              { text: "3. 短促音", link: "/pronunciation/3" },
+              { text: "4. 近似音", link: "/pronunciation/4" },
               { text: "参考资料", link: "/pronunciation/reference" },
             ],
           },
