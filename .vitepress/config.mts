@@ -118,7 +118,10 @@ export default withMermaid(
           {
             text: "2024",
             collapsed: true,
-            items: [{ text: "12 月份", link: "/forget/2024/12" }],
+            items: [
+              { text: "12 月份", link: "/forget/2024/12" },
+              { text: "03 月份", link: "/forget/2024/3" }
+            ],
           },
           {
             text: "2025",
@@ -146,6 +149,8 @@ export default withMermaid(
             collapsed: true,
             items: [
               { text: "1. 长音", link: "/pronunciation/1" },
+              { text: "2. 短音", link: "/pronunciation/2" },
+              { text: "参考资料", link: "/pronunciation/reference" },
             ],
           },
         ],
