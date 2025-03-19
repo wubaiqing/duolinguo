@@ -152,6 +152,7 @@ export default withMermaid(
               { text: "2. 短音", link: "/pronunciation/2" },
               { text: "3. 短促音", link: "/pronunciation/3" },
               { text: "4. 近似音", link: "/pronunciation/4" },
+              { text: "5. 近似连读音", link: "/pronunciation/5" },
               { text: "参考资料", link: "/pronunciation/reference" },
             ],
           },
