@@ -120,7 +120,7 @@ export default withMermaid(
             collapsed: true,
             items: [
               { text: "12 月份", link: "/forget/2024/12" },
-              { text: "03 月份", link: "/forget/2024/3" }
+              { text: "03 月份", link: "/forget/2024/3" },
             ],
           },
           {
@@ -154,11 +154,11 @@ export default withMermaid(
               { text: "4. 近似音", link: "/pronunciation/4" },
               { text: "5. 近似连读音", link: "/pronunciation/5" },
               { text: "6. 轻音", link: "/pronunciation/6" },
+              { text: "7. 咬舌", link: "/pronunciation/7" },
               { text: "参考资料", link: "/pronunciation/reference" },
             ],
           },
         ],
-        
       },
       socialLinks: [
         {
