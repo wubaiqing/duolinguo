@@ -46,6 +46,7 @@ export default withMermaid(
     themeConfig: {
       outline: {
         label: "目录",
+        level: [1, 3],
       },
       // https://vitepress.dev/reference/default-theme-config
       nav: [
@@ -180,7 +181,7 @@ export default withMermaid(
         md.use(carousel);
       },
       toc: {
-        level: [1, 2, 3],
+        level: [1, 3],
       },
     },
   })
