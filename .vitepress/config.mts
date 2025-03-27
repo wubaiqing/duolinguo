@@ -152,9 +152,9 @@ export default withMermaid(
               { text: "2. 短音", link: "/pronunciation/2" },
               { text: "3. 短促音", link: "/pronunciation/3" },
               { text: "4. 近似音", link: "/pronunciation/4" },
-              { text: "5. 近似连读音", link: "/pronunciation/5" },
-              { text: "6. 轻音", link: "/pronunciation/6" },
-              { text: "7. 咬舌", link: "/pronunciation/7" },
+              { text: "5. 轻音", link: "/pronunciation/5" },
+              { text: "6. 咬舌", link: "/pronunciation/6" },
+              { text: "7. 音标总览", link: "/pronunciation/all" },
               { text: "参考资料", link: "/pronunciation/reference" },
             ],
           },
@@ -180,7 +180,7 @@ export default withMermaid(
         md.use(carousel);
       },
       toc: {
-        level: [1, 2, 3, 4, 5],
+        level: [1, 2, 3],
       },
     },
   })
