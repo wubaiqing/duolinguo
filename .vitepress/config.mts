@@ -180,7 +180,7 @@ export default withMermaid(
         md.use(carousel);
       },
       toc: {
-        level: [1, 2, 3],
+        level: [1, 2, 3, 4, 5],
       },
     },
   })
