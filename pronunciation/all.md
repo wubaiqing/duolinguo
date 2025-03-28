@@ -72,9 +72,9 @@
 - 音：/ˈrʌlər/ | /ˈpændə/
 - 视：[链接地址](https://appfrxl8ojj7783.xet.citv.cn/p/course/video/v_663c29e7e4b0694ca03174f3?product_id=p_663c25abe4b0694ca03171dd)
 
-#### i 衣
+#### ɪ 衣
 
-- 拆：i 就像小雨衣
+- 拆：ɪ 就像小雨衣
 - 连：雨衣～衣～衣～衣～衣～
 - 例：`this` | `it` | `fish`
 - 音：/ðɪs/ | /ɪt/ | /fɪʃ/
