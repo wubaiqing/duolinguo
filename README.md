@@ -12,6 +12,8 @@
 - 📱 响应式设计，支持移动端
 - 🌙 支持深色模式
 - 🎠 支持图片轮播展示
+- 📊 支持 Mermaid 图表展示
+- 🔍 支持 Markdown 扩展语法
 
 ## 技术栈
 
@@ -21,18 +23,22 @@
 - SCSS
 - Swiper
 - Cheerio
+- Mermaid
+- Markdown-it 插件
 
 ## 项目结构
 
 ```text
-├── .vitepress/ # VitePress 配置和主题
-│ ├── theme/ # 主题配置
-│ └── config.mts # 配置文件
-├── notes/ # 学习笔记内容
-│ ├── 1/ # 第一阶段笔记
-│ ├── 2/ # 第二阶段笔记
-│ └── 3/ # 第三阶段笔记
-├── public/ # 静态资源
+├── .vitepress/          # VitePress 配置和主题
+│   ├── theme/          # 主题配置
+│   └── config.mts      # 配置文件
+├── src/                # 源代码目录
+├── pronunciation/      # 发音练习内容
+├── base/              # 基础学习内容
+├── forget/            # 复习内容
+├── notes/             # 学习笔记内容
+├── public/            # 静态资源
+└── index.md           # 首页内容
 ```
 
 ## 本地开发
@@ -55,6 +61,12 @@ yarn dev
 yarn build
 ```
 
+4. 预览生产版本
+
+```bash
+yarn preview
+```
+
 ## 主要功能
 
 - 笔记内容按阶段和章节组织
@@ -62,6 +74,9 @@ yarn build
 - 集成图片轮播组件，优化学习体验
 - 响应式设计，适配多种设备
 - 支持深色模式切换
+- 支持 Mermaid 图表展示
+- 支持 Markdown 扩展语法（脚注、下划线、高亮等）
+- 支持数学公式展示
 
 ## 贡献指南
 
