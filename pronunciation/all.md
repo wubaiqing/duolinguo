@@ -153,7 +153,7 @@
 #### e/ɛ 挨
 
 - 拆：鹅
-- 连：一直饿容易挨打，挨挨挨
+- 连：一只鹅容易挨打，挨挨挨
 - 例：`red` | `head` | `bed`
 - 音：/red/ | /hed/ | /bed/
 - 视：[链接地址](https://appfrxl8ojj7783.xet.citv.cn/p/course/video/v_663c29f1e4b0694ca03174fd?product_id=p_663c25abe4b0694ca03171dd)
