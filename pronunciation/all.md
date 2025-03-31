@@ -281,7 +281,7 @@
 - 拆：日
 - 连：日日日，日日日
 - 例：`vision` | `measure` | `treasure`
-- 音：/ˈvɪʒn/ | /ˈmeʒə/ | /ˈtreʒə/
+- 音：/ˈvɪʒn/ | /ˈmeʒər/ | /ˈtreʒə/
 - 视：[链接地址](https://appfrxl8ojj7783.xet.citv.cn/p/course/video/v_663c2a00e4b0694ca031750c?product_id=p_663c25abe4b0694ca03171dd)
 
 ### 破擦音
