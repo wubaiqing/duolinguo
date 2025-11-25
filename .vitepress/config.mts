@@ -122,7 +122,6 @@ export default withMermaid(
             collapsed: true,
             items: [
               { text: "12 月份", link: "/forget/2024/12" },
-              { text: "03 月份", link: "/forget/2024/3" },
             ],
           },
           {
@@ -130,8 +129,8 @@ export default withMermaid(
             collapsed: true,
             items: [
               { text: "01 月份", link: "/forget/2025/1" },
-              { text: "01 月份", link: "/forget/2025/3" },
-              { text: "01 月份", link: "/forget/2025/6" },
+              { text: "03 月份", link: "/forget/2025/3" },
+              { text: "06 月份", link: "/forget/2025/6" },
               { text: "11 月份", link: "/forget/2025/11" },
             ],
           },
