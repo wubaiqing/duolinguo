@@ -112,6 +112,7 @@ export default withMermaid(
               { text: "2. 第二部分", link: "/notes/3/2" },
               { text: "3. 第三部分", link: "/notes/3/3" },
               { text: "4. 第四部分", link: "/notes/3/4" },
+              { text: "5. 第五部分", link: "/notes/3/5" },
             ],
           },
         ],
@@ -127,7 +128,12 @@ export default withMermaid(
           {
             text: "2025",
             collapsed: true,
-            items: [{ text: "01 月份", link: "/forget/2025/1" }],
+            items: [
+              { text: "01 月份", link: "/forget/2025/1" },
+              { text: "01 月份", link: "/forget/2025/3" },
+              { text: "01 月份", link: "/forget/2025/6" },
+              { text: "11 月份", link: "/forget/2025/11" },
+            ],
           },
         ],
         "/base/": [
